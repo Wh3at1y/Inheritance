@@ -8,7 +8,7 @@ public class AppController
 		
 		public AppController()
 		{
-			frame = new AppFrame();
+			frame = new AppFrame(this);
 		}
 		
 		public AppFrame getFrame()
