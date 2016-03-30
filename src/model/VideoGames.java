@@ -2,7 +2,7 @@ package model;
 
 import java.util.*;
 
-public abstract class VideoGames
+public abstract class VideoGames implements Gaymes
 	{
 		private int playerCount;
 		private ArrayList<String> equipmentList;

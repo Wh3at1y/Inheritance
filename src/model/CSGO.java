@@ -23,4 +23,24 @@ public class CSGO extends VideoGames
 			
 			return equipt;
 		}
+		
+		public boolean isSeries()
+			{
+				return true;
+			}
+
+		public boolean isMulitplayer()
+			{
+				return true;
+			}
+
+		public void gameRate(int rating)
+			{
+				rating = 9;
+			}
+
+		public void gameCatagory(String catagory)
+			{
+				catagory = "FPS";
+			}
 	}

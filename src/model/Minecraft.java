@@ -22,4 +22,24 @@ public class Minecraft extends VideoGames
 			
 			return equipt;
 		}
+
+		public boolean isSeries()
+			{
+				return false;
+			}
+
+		public boolean isMulitplayer()
+			{
+				return true;
+			}
+
+		public void gameRate(int rating)
+			{
+				rating = 9;
+			}
+
+		public void gameCatagory(String catagory)
+			{
+				catagory = "RPG Survival";
+			}
 	}
