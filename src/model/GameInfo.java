@@ -5,12 +5,14 @@ package model;
  *
  */
 
-public interface Gaymes
+public interface GameInfo
 	{
 		public boolean isFun();		//Returns
-		public boolean isSeries();		//Returns
+		public int playerCount();	//Returns
 		public boolean isMulitplayer();	//Returns
 		
 		public void gameRate(int rating);	//Parameter
 		public void gameCatagory(String catagory);		//Parameter
+		
+		public int compareTo(Object thing);
 	}

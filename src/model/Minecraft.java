@@ -23,9 +23,9 @@ public class Minecraft extends VideoGames
 			return equipt;
 		}
 
-		public boolean isSeries()
+		public int playerCount()
 			{
-				return false;
+				return -1;
 			}
 
 		public boolean isMulitplayer()

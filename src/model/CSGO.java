@@ -24,9 +24,9 @@ public class CSGO extends VideoGames
 			return equipt;
 		}
 		
-		public boolean isSeries()
+		public int playerCount()
 			{
-				return true;
+				return 10;
 			}
 
 		public boolean isMulitplayer()
